@@ -1,0 +1,857 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\{90AA3A4E-1CBA-4233-B8BB-535773D48449}]
+@="Taskband Pin"
+
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing]
+@="{e2bf9676-5f8f-435c-97eb-11607a5bedf7}"
+
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Open With]
+@="{09799AFB-AD67-11d1-ABCD-00C04FC30936}"
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\CopyAsPathMenu]
+@="{f3d06e7c-1e45-4a26-847e-f9fcdee59be0}"
+
+[HKEY_CLASSES_ROOT\AppX43hnxtbyyps62jhe9sqpdzxn1790zetc\Shell\ShellCreateVideo]
+@="@{Microsoft.Windows.Photos_2019.19061.18920.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Resources/CreateVideoWithPhotos}"
+"ActivatableClassId"="App.AppX65n3t4j73ch7cremsjxn7q8bph1ma8jw.mca"
+"ContractId"="Windows.File"
+"DesiredInitialViewState"=dword:00000000
+"PackageId"="Microsoft.Windows.Photos_2019.19061.18920.0_x64__8wekyb3d8bbwe"
+
+[HKEY_CLASSES_ROOT\AppX43hnxtbyyps62jhe9sqpdzxn1790zetc\Shell\ShellCreateVideo\command]
+"DelegateExecute"="{4ED3A719-CEA8-4BD9-910D-E252F997AFC2}"
+
+[HKEY_CLASSES_ROOT\AppX43hnxtbyyps62jhe9sqpdzxn1790zetc\Shell\ShellEdit]
+"ActivatableClassId"="App.AppX65n3t4j73ch7cremsjxn7q8bph1ma8jw.mca"
+"PackageId"="Microsoft.Windows.Photos_2019.19061.18920.0_x64__8wekyb3d8bbwe"
+"ContractId"="Windows.File"
+"DesiredInitialViewState"=dword:00000000
+@="@{Microsoft.Windows.Photos_2019.19061.18920.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Resources/EditWithPhotos}"
+
+[HKEY_CLASSES_ROOT\AppX43hnxtbyyps62jhe9sqpdzxn1790zetc\Shell\ShellEdit\command]
+"DelegateExecute"="{4ED3A719-CEA8-4BD9-910D-E252F997AFC2}"
+
+[HKEY_CLASSES_ROOT\batfile\shell\print\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,2f,00,70,00,20,\
+  00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\batfile\shell\runasuser]
+@="@shell32.dll,-50944"
+"Extended"=""
+"SuppressionPolicyEx"="{F211AA05-D4DF-4370-A2A0-9F19C09756A7}"
+
+[HKEY_CLASSES_ROOT\batfile\shell\runasuser\command]
+"DelegateExecute"="{ea72d00e-4960-42fa-ba92-7792a7944c1d}"
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\print\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,2f,00,70,00,20,\
+  00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\runasuser]
+@="@shell32.dll,-50944"
+"Extended"=""
+"SuppressionPolicyEx"="{F211AA05-D4DF-4370-A2A0-9F19C09756A7}"
+
+[HKEY_CLASSES_ROOT\cmdfile\shell\runasuser\command]
+"DelegateExecute"="{ea72d00e-4960-42fa-ba92-7792a7944c1d}"
+
+[HKEY_CLASSES_ROOT\CompressedFolder\ShellEx\ContextMenuHandlers\{b8cdcb65-b1bf-4b42-9428-1dfdb7ee92af}]
+@="Compressed (zipped) Folder Menu"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display]
+@=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,64,00,\
+  69,00,73,00,70,00,6c,00,61,00,79,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,34,\
+  00,00,00
+"Icon"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,64,00,\
+  69,00,73,00,70,00,6c,00,61,00,79,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,31,\
+  00,00,00
+"Position"="Bottom"
+"SettingsUri"="ms-settings:display"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command]
+"DelegateExecute"="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize]
+@=hex(2):40,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,74,00,\
+  68,00,65,00,6d,00,65,00,63,00,70,00,6c,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,\
+  00,31,00,30,00,00,00
+"HideInSafeMode"=""
+"Icon"=hex(2):25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,74,00,\
+  68,00,65,00,6d,00,65,00,63,00,70,00,6c,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,\
+  00,31,00,00,00
+"Position"="Bottom"
+"SettingsURI"="ms-settings:personalization-background"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command]
+"DelegateExecute"="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell]
+@="@shell32.dll,-8508"
+"Extended"=""
+"NoWorkingDirectory"=""
+"ShowBasedOnVelocityId"=dword:00639bc8
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell\command]
+@="powershell.exe -noexit -command Set-Location -literalPath '%V'"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Powershell]
+@="@shell32.dll,-8508"
+"Extended"=""
+"NoWorkingDirectory"=""
+"ShowBasedOnVelocityId"=dword:00639bc8
+
+[HKEY_CLASSES_ROOT\Directory\shell\Powershell\command]
+@="powershell.exe -noexit -command Set-Location -literalPath '%V'"
+
+[HKEY_CLASSES_ROOT\docxfile\shell\print\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,\
+  4e,00,54,00,5c,00,41,00,63,00,63,00,65,00,73,00,73,00,6f,00,72,00,69,00,65,\
+  00,73,00,5c,00,57,00,4f,00,52,00,44,00,50,00,41,00,44,00,2e,00,45,00,58,00,\
+  45,00,22,00,20,00,2f,00,70,00,20,00,22,00,25,00,31,00,22,00,00,00
+
+[HKEY_CLASSES_ROOT\Drive\shell\encrypt-bde]
+@=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,66,00,\
+  76,00,65,00,77,00,69,00,7a,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,39,00,32,\
+  00,30,00,00,00
+"AppliesTo"="(System.Volume.BitLockerProtection:=System.Volume.BitLockerProtection#Off OR System.Volume.BitLockerProtection:=System.Volume.BitLockerProtection#OnPreProvisioned) AND System.Volume.BitLockerRequiresAdmin:=System.StructuredQueryType.Boolean#False"
+"MultiSelectModel"="Single"
+
+[HKEY_CLASSES_ROOT\Drive\shell\encrypt-bde\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,42,00,69,00,\
+  74,00,4c,00,6f,00,63,00,6b,00,65,00,72,00,57,00,69,00,7a,00,61,00,72,00,64,\
+  00,2e,00,65,00,78,00,65,00,20,00,25,00,31,00,20,00,54,00,00,00
+
+[HKEY_CLASSES_ROOT\Drive\shell\encrypt-bde-elev]
+@=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,66,00,\
+  76,00,65,00,77,00,69,00,7a,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,39,00,32,\
+  00,30,00,00,00
+"AppliesTo"="(System.Volume.BitLockerProtection:=System.Volume.BitLockerProtection#Off OR System.Volume.BitLockerProtection:=System.Volume.BitLockerProtection#OnPreProvisioned) AND System.Volume.BitLockerRequiresAdmin:=System.StructuredQueryType.Boolean#True"
+"HasLUAShield"=""
+"MultiSelectModel"="Single"
+
+[HKEY_CLASSES_ROOT\Drive\shell\encrypt-bde-elev\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,42,00,69,00,\
+  74,00,4c,00,6f,00,63,00,6b,00,65,00,72,00,57,00,69,00,7a,00,61,00,72,00,64,\
+  00,45,00,6c,00,65,00,76,00,2e,00,65,00,78,00,65,00,20,00,25,00,31,00,20,00,\
+  54,00,00,00
+
+[HKEY_CLASSES_ROOT\Drive\shell\Powershell]
+@="@shell32.dll,-8508"
+"Extended"=""
+"NoWorkingDirectory"=""
+"ShowBasedOnVelocityId"=dword:00639bc8
+
+[HKEY_CLASSES_ROOT\Drive\shell\Powershell\command]
+@="powershell.exe -noexit -command Set-Location -literalPath '%V'"
+
+[HKEY_CLASSES_ROOT\emffile\shell\print\command]
+@=hex(2):22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,\
+  73,00,70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,\
+  00,70,00,20,00,22,00,25,00,31,00,22,00,00,00
+
+[HKEY_CLASSES_ROOT\exefile\shell\runasuser]
+@="@shell32.dll,-50944"
+"Extended"=""
+"SuppressionPolicyEx"="{F211AA05-D4DF-4370-A2A0-9F19C09756A7}"
+
+[HKEY_CLASSES_ROOT\exefile\shell\runasuser\command]
+"DelegateExecute"="{ea72d00e-4960-42fa-ba92-7792a7944c1d}"
+
+[HKEY_CLASSES_ROOT\exefile\shellex\ContextMenuHandlers\Compatibility]
+@="{1d27f844-3a1f-4410-85ac-14651078412d}"
+
+[HKEY_CLASSES_ROOT\exefile\shellex\ContextMenuHandlers\PintoStartScreen]
+@="{470C0EBD-5D73-4d58-9CED-E91E22E23282}"
+
+[HKEY_CLASSES_ROOT\Folder\shell\opennewprocess]
+"ExplorerHost"="{ceff45ee-c862-41de-aee2-a022c81eda92}"
+"Extended"=""
+"LaunchExplorerFlags"=dword:00000003
+"MUIVerb"="@shell32.dll,-8518"
+"MultiSelectModel"="Document"
+
+[HKEY_CLASSES_ROOT\Folder\shell\opennewprocess\command]
+"DelegateExecute"="{11dbb47c-a525-400b-9e80-a54615a090c0}"
+
+[HKEY_CLASSES_ROOT\Folder\shell\pintohome]
+"AppliesTo"="System.ParsingName:<>\"::{679f85cb-0220-4080-b29b-5540cc05aab6}\" AND System.ParsingName:<>\"::{645FF040-5081-101B-9F08-00AA002F954E}\" AND System.IsFolder:=System.StructuredQueryType.Boolean#True"
+"MUIVerb"="@shell32.dll,-51377"
+
+[HKEY_CLASSES_ROOT\Folder\shell\pintohome\command]
+"DelegateExecute"="{b455f46e-e4af-4035-b0a4-cf18d2f6f28e}"
+
+[HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Library Location]
+@="{3dad6c5d-2167-4cae-9914-f99e41c12cfa}"
+
+[HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\PintoStartScreen]
+@="{470C0EBD-5D73-4d58-9CED-E91E22E23282}"
+
+[HKEY_CLASSES_ROOT\Folder\shellex\DragDropHandlers\{BD472F60-27FA-11cf-B8B4-444553540000}]
+
+[HKEY_CLASSES_ROOT\htmlfile\shell\open]
+@="Open in S&ame Window"
+"MUIVerb"="@C:\\WINDOWS\\system32\\ieframe.dll,-5732"
+
+[HKEY_CLASSES_ROOT\htmlfile\shell\print\command]
+@="\"C:\\WINDOWS\\system32\\rundll32.exe\" \"C:\\WINDOWS\\system32\\mshtml.dll\",PrintHTML \"%1\""
+
+[HKEY_CLASSES_ROOT\IE.AssocFile.URL\Shell\print\command]
+@="\"C:\\Windows\\System32\\rundll32.exe\" \"C:\\Windows\\System32\\mshtml.dll\",PrintHTML \"%1\""
+
+[HKEY_CLASSES_ROOT\inffile\shell\print\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,2f,00,70,00,20,\
+  00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\inifile\shell\print\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,2f,00,70,00,20,\
+  00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\JSEFile\Shell\Open2]
+@="Open &with Command Prompt"
+"MUIVerb"="@C:\\Windows\\System32\\wshext.dll,-4511"
+
+[HKEY_CLASSES_ROOT\JSEFile\Shell\Open2\Command]
+@="C:\\Windows\\System32\\CScript.exe \"%1\" %*"
+
+[HKEY_CLASSES_ROOT\JSEFile\Shell\Print\Command]
+@="C:\Windows\System32\Notepad.exe /p %1"
+
+[HKEY_CLASSES_ROOT\JSFile\Shell\Edit\Command]
+@="C:\\Windows\\System32\\Notepad.exe %1"
+
+[HKEY_CLASSES_ROOT\JSFile\Shell\Open2]
+@="Open &with Command Prompt"
+"MUIVerb"="@C:\\Windows\\System32\\wshext.dll,-4511"
+
+[HKEY_CLASSES_ROOT\JSFile\Shell\Open2\Command]
+@="C:\\Windows\\System32\\CScript.exe \"%1\" %*"
+
+[HKEY_CLASSES_ROOT\JSFile\Shell\Print\Command]
+@="C:\Windows\System32\Notepad.exe /p %1"
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellData.1\Shell\Edit]
+"NoSmartScreen"=""
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellData.1\Shell\Edit\Command]
+@="\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell_ise.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellModule.1\Shell\Edit]
+"NoSmartScreen"=""
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellModule.1\Shell\Edit\Command]
+@="\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell_ise.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\0]
+"MUIVerb"=hex(2):40,00,22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,\
+  6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,\
+  00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,70,00,6f,00,77,00,65,00,\
+  72,00,73,00,68,00,65,00,6c,00,6c,00,5c,00,76,00,31,00,2e,00,30,00,5c,00,70,\
+  00,6f,00,77,00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,2e,00,65,00,78,00,\
+  65,00,20,00,22,00,2c,00,2d,00,31,00,30,00,38,00,00,00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\0\Command]
+@="\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" \"-Command\" \"if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & '%1'\""
+
+[HKEY_CLASSES_ROOT\mscfile\shell\runasuser]
+@="@shell32.dll,-50944"
+"Extended"=""
+"SuppressionPolicyEx"="{F211AA05-D4DF-4370-A2A0-9F19C09756A7}"
+
+[HKEY_CLASSES_ROOT\mscfile\shell\runasuser\command]
+"DelegateExecute"="{ea72d00e-4960-42fa-ba92-7792a7944c1d}"
+
+[HKEY_CLASSES_ROOT\mscfile\shellex\ContextMenuHandlers\PintoStartScreen]
+@="{470C0EBD-5D73-4d58-9CED-E91E22E23282}"
+
+[HKEY_CLASSES_ROOT\Msi.Package\shell\runasuser]
+@="@shell32.dll,-50944"
+"Extended"=""
+"SuppressionPolicyEx"="{F211AA05-D4DF-4370-A2A0-9F19C09756A7}"
+
+[HKEY_CLASSES_ROOT\Msi.Package\shell\runasuser\command]
+"DelegateExecute"="{ea72d00e-4960-42fa-ba92-7792a7944c1d}"
+
+[HKEY_CLASSES_ROOT\Msi.Package\shellex\ContextMenuHandlers\Compatibility]
+@="{1d27f844-3a1f-4410-85ac-14651078412d}"
+
+[HKEY_CLASSES_ROOT\odtfile\shell\print\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,\
+  4e,00,54,00,5c,00,41,00,63,00,63,00,65,00,73,00,73,00,6f,00,72,00,69,00,65,\
+  00,73,00,5c,00,57,00,4f,00,52,00,44,00,50,00,41,00,44,00,2e,00,45,00,58,00,\
+  45,00,22,00,20,00,2f,00,70,00,20,00,22,00,25,00,31,00,22,00,00,00
+
+[HKEY_CLASSES_ROOT\RDP.File\shell\Open]
+"Extended"=""
+
+[HKEY_CLASSES_ROOT\RDP.File\shell\Open\command]
+@=hex(2):22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,\
+  73,00,74,00,73,00,63,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,00,25,00,31,\
+  00,22,00,00,00
+
+[HKEY_CLASSES_ROOT\regfile\shell\print\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6e,00,6f,00,\
+  74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,20,00,2f,00,70,00,20,\
+  00,22,00,25,00,31,00,22,00,00,00
+
+[HKEY_CLASSES_ROOT\rlefile\shell\print\command]
+@=hex(2):22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,\
+  73,00,70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,\
+  00,70,00,20,00,22,00,25,00,31,00,22,00,00,00
+
+[HKEY_CLASSES_ROOT\rtffile\shell\print\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,\
+  4e,00,54,00,5c,00,41,00,63,00,63,00,65,00,73,00,73,00,6f,00,72,00,69,00,65,\
+  00,73,00,5c,00,57,00,4f,00,52,00,44,00,50,00,41,00,44,00,2e,00,45,00,58,00,\
+  45,00,22,00,20,00,2f,00,70,00,20,00,22,00,25,00,31,00,22,00,00,00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\audio\shell\Enqueue]
+@="&Add to Windows Media Player list"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,30,00,00,00
+"NeverDefault"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\audio\shell\Enqueue\command]
+"DelegateExecute"="{45597c98-80f6-4549-84ff-752cf55e2d29}"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\audio\shell\Play]
+@="&Play with Windows Media Player"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,31,00,00,00
+"NeverDefault"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\audio\shell\Play\command]
+"DelegateExecute"="{ed1d0fdf-4414-470a-a56d-cfb68623fc58}"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\Directory.Audio\shell\Enqueue]
+@="&Add to Windows Media Player list"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,30,00,00,00
+"NeverDefault"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\Directory.Audio\shell\Enqueue\command]
+"DelegateExecute"="{45597c98-80f6-4549-84ff-752cf55e2d29}"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\Directory.Audio\shell\Play]
+@="&Play with Windows Media Player"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,31,00,00,00
+"NeverDefault"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\Directory.Audio\shell\Play\command]
+"DelegateExecute"="{ed1d0fdf-4414-470a-a56d-cfb68623fc58}"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\Directory.Image\shell\Enqueue]
+@="&Add to Windows Media Player list"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,30,00,00,00
+"NeverDefault"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\Directory.Image\shell\Enqueue\command]
+"DelegateExecute"="{45597c98-80f6-4549-84ff-752cf55e2d29}"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\Directory.Image\shell\Play]
+@="&Play with Windows Media Player"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,31,00,00,00
+"NeverDefault"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\Directory.Image\shell\Play\command]
+"DelegateExecute"="{ed1d0fdf-4414-470a-a56d-cfb68623fc58}"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\print\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,\
+  00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,\
+  25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,50,00,68,00,6f,\
+  00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,72,00,5c,00,50,00,68,00,\
+  6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,65,00,72,00,2e,00,64,00,6c,00,6c,\
+  00,22,00,2c,00,20,00,49,00,6d,00,61,00,67,00,65,00,56,00,69,00,65,00,77,00,\
+  5f,00,46,00,75,00,6c,00,6c,00,73,00,63,00,72,00,65,00,65,00,6e,00,20,00,25,\
+  00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\print\DropTarget]
+"Clsid"="{60fd46de-f830-4894-a628-6fa81bc0190d}"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text\shell\edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,25,00,31,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\txtfile\shell\print\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,2f,00,70,00,20,\
+  00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\Open2]
+@=hex(2):4f,00,70,00,65,00,6e,00,20,00,26,00,77,00,69,00,74,00,68,00,20,00,43,\
+  00,6f,00,6d,00,6d,00,61,00,6e,00,64,00,20,00,50,00,72,00,6f,00,6d,00,70,00,\
+  74,00,00,00
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,77,00,73,00,68,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,\
+  34,00,35,00,31,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\Open2\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,43,00,\
+  53,00,63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,\
+  00,25,00,31,00,22,00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\VBEFile\Shell\Print\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,\
+  6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,\
+  00,70,00,20,00,25,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\Open2]
+@=hex(2):4f,00,70,00,65,00,6e,00,20,00,26,00,77,00,69,00,74,00,68,00,20,00,43,\
+  00,6f,00,6d,00,6d,00,61,00,6e,00,64,00,20,00,50,00,72,00,6f,00,6d,00,70,00,\
+  74,00,00,00
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,77,00,73,00,68,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,\
+  34,00,35,00,31,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\Open2\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,43,00,\
+  53,00,63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,\
+  00,25,00,31,00,22,00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\Print\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,\
+  6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,\
+  00,70,00,20,00,25,00,31,00,00,00
+
+[-HKEY_CLASSES_ROOT\VBSFile\Shell\runas]
+
+[HKEY_CLASSES_ROOT\wmffile\shell\print\command]
+@=hex(2):22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,\
+  73,00,70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,\
+  00,70,00,20,00,22,00,25,00,31,00,22,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.AIFF\shell\Enqueue]
+@="&Add to Windows Media Player list"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.AIFF\shell\Enqueue\command]
+"DelegateExecute"="{45597c98-80f6-4549-84ff-752cf55e2d29}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.AIFF\shell\play]
+@="&Play"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,39,00,39,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.AIFF\shell\play\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,28,00,78,00,38,00,36,00,29,00,25,00,5c,00,57,00,69,00,6e,00,\
+  64,00,6f,00,77,00,73,00,20,00,4d,00,65,00,64,00,69,00,61,00,20,00,50,00,6c,\
+  00,61,00,79,00,65,00,72,00,5c,00,77,00,6d,00,70,00,6c,00,61,00,79,00,65,00,\
+  72,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,50,00,6c,00,61,00,79,00,20,\
+  00,22,00,25,00,4c,00,22,00,00,00
+"DelegateExecute"="{ed1d0fdf-4414-470a-a56d-cfb68623fc58}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.ASF\shell\Enqueue]
+@="&Add to Windows Media Player list"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.ASF\shell\Enqueue\command]
+"DelegateExecute"="{45597c98-80f6-4549-84ff-752cf55e2d29}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.ASF\shell\play]
+@="&Play"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,39,00,39,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.ASF\shell\play\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,28,00,78,00,38,00,36,00,29,00,25,00,5c,00,57,00,69,00,6e,00,\
+  64,00,6f,00,77,00,73,00,20,00,4d,00,65,00,64,00,69,00,61,00,20,00,50,00,6c,\
+  00,61,00,79,00,65,00,72,00,5c,00,77,00,6d,00,70,00,6c,00,61,00,79,00,65,00,\
+  72,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,70,00,72,00,65,00,66,00,65,\
+  00,74,00,63,00,68,00,3a,00,37,00,20,00,2f,00,50,00,6c,00,61,00,79,00,20,00,\
+  22,00,25,00,4c,00,22,00,00,00
+"DelegateExecute"="{ed1d0fdf-4414-470a-a56d-cfb68623fc58}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.ASX\shell\Enqueue]
+@="&Add to Windows Media Player list"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.ASX\shell\Enqueue\command]
+"DelegateExecute"="{45597c98-80f6-4549-84ff-752cf55e2d29}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.ASX\shell\play]
+@="&Play"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,39,00,39,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.ASX\shell\play\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,28,00,78,00,38,00,36,00,29,00,25,00,5c,00,57,00,69,00,6e,00,\
+  64,00,6f,00,77,00,73,00,20,00,4d,00,65,00,64,00,69,00,61,00,20,00,50,00,6c,\
+  00,61,00,79,00,65,00,72,00,5c,00,77,00,6d,00,70,00,6c,00,61,00,79,00,65,00,\
+  72,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,50,00,6c,00,61,00,79,00,20,\
+  00,22,00,25,00,4c,00,22,00,00,00
+"DelegateExecute"="{ed1d0fdf-4414-470a-a56d-cfb68623fc58}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.AU\shell\Enqueue]
+@="&Add to Windows Media Player list"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.AU\shell\Enqueue\command]
+"DelegateExecute"="{45597c98-80f6-4549-84ff-752cf55e2d29}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.AU\shell\play]
+@="&Play"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,39,00,39,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.AU\shell\play\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,28,00,78,00,38,00,36,00,29,00,25,00,5c,00,57,00,69,00,6e,00,\
+  64,00,6f,00,77,00,73,00,20,00,4d,00,65,00,64,00,69,00,61,00,20,00,50,00,6c,\
+  00,61,00,79,00,65,00,72,00,5c,00,77,00,6d,00,70,00,6c,00,61,00,79,00,65,00,\
+  72,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,50,00,6c,00,61,00,79,00,20,\
+  00,22,00,25,00,4c,00,22,00,00,00
+"DelegateExecute"="{ed1d0fdf-4414-470a-a56d-cfb68623fc58}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.CDA\shell\play]
+@="&Play"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,39,00,39,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.CDA\shell\play\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,28,00,78,00,38,00,36,00,29,00,25,00,5c,00,57,00,69,00,6e,00,\
+  64,00,6f,00,77,00,73,00,20,00,4d,00,65,00,64,00,69,00,61,00,20,00,50,00,6c,\
+  00,61,00,79,00,65,00,72,00,5c,00,77,00,6d,00,70,00,6c,00,61,00,79,00,65,00,\
+  72,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,50,00,6c,00,61,00,79,00,20,\
+  00,22,00,25,00,4c,00,22,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MIDI\shell\Enqueue]
+@="&Add to Windows Media Player list"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MIDI\shell\Enqueue\command]
+"DelegateExecute"="{45597c98-80f6-4549-84ff-752cf55e2d29}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MIDI\shell\play]
+@="&Play"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,39,00,39,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MIDI\shell\play\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,28,00,78,00,38,00,36,00,29,00,25,00,5c,00,57,00,69,00,6e,00,\
+  64,00,6f,00,77,00,73,00,20,00,4d,00,65,00,64,00,69,00,61,00,20,00,50,00,6c,\
+  00,61,00,79,00,65,00,72,00,5c,00,77,00,6d,00,70,00,6c,00,61,00,79,00,65,00,\
+  72,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,50,00,6c,00,61,00,79,00,20,\
+  00,22,00,25,00,4c,00,22,00,00,00
+"DelegateExecute"="{ed1d0fdf-4414-470a-a56d-cfb68623fc58}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MP3\shell\Enqueue]
+@="&Add to Windows Media Player list"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MP3\shell\Enqueue\command]
+"DelegateExecute"="{45597c98-80f6-4549-84ff-752cf55e2d29}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MP3\shell\play]
+@="&Play"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,39,00,39,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MP3\shell\play\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,28,00,78,00,38,00,36,00,29,00,25,00,5c,00,57,00,69,00,6e,00,\
+  64,00,6f,00,77,00,73,00,20,00,4d,00,65,00,64,00,69,00,61,00,20,00,50,00,6c,\
+  00,61,00,79,00,65,00,72,00,5c,00,77,00,6d,00,70,00,6c,00,61,00,79,00,65,00,\
+  72,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,70,00,72,00,65,00,66,00,65,\
+  00,74,00,63,00,68,00,3a,00,36,00,20,00,2f,00,50,00,6c,00,61,00,79,00,20,00,\
+  22,00,25,00,4c,00,22,00,00,00
+"DelegateExecute"="{ed1d0fdf-4414-470a-a56d-cfb68623fc58}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MPEG\shell\Enqueue]
+@="&Add to Windows Media Player list"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MPEG\shell\Enqueue\command]
+"DelegateExecute"="{45597c98-80f6-4549-84ff-752cf55e2d29}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MPEG\shell\play]
+@="&Play"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,39,00,39,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MPEG\shell\play\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,28,00,78,00,38,00,36,00,29,00,25,00,5c,00,57,00,69,00,6e,00,\
+  64,00,6f,00,77,00,73,00,20,00,4d,00,65,00,64,00,69,00,61,00,20,00,50,00,6c,\
+  00,61,00,79,00,65,00,72,00,5c,00,77,00,6d,00,70,00,6c,00,61,00,79,00,65,00,\
+  72,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,70,00,72,00,65,00,66,00,65,\
+  00,74,00,63,00,68,00,3a,00,39,00,20,00,2f,00,50,00,6c,00,61,00,79,00,20,00,\
+  22,00,25,00,4c,00,22,00,00,00
+"DelegateExecute"="{ed1d0fdf-4414-470a-a56d-cfb68623fc58}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.WAX\shell\Enqueue]
+@="&Add to Windows Media Player list"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.WAX\shell\Enqueue\command]
+"DelegateExecute"="{45597c98-80f6-4549-84ff-752cf55e2d29}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.WAX\shell\play]
+@="&Play"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,39,00,39,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.WAX\shell\play\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,28,00,78,00,38,00,36,00,29,00,25,00,5c,00,57,00,69,00,6e,00,\
+  64,00,6f,00,77,00,73,00,20,00,4d,00,65,00,64,00,69,00,61,00,20,00,50,00,6c,\
+  00,61,00,79,00,65,00,72,00,5c,00,77,00,6d,00,70,00,6c,00,61,00,79,00,65,00,\
+  72,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,50,00,6c,00,61,00,79,00,20,\
+  00,22,00,25,00,4c,00,22,00,00,00
+"DelegateExecute"="{ed1d0fdf-4414-470a-a56d-cfb68623fc58}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.WVX\shell\Enqueue]
+@="&Add to Windows Media Player list"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,38,00,30,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.WVX\shell\Enqueue\command]
+"DelegateExecute"="{45597c98-80f6-4549-84ff-752cf55e2d29}"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.WVX\shell\play]
+@="&Play"
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,75,00,6e,00,72,00,65,00,67,00,6d,00,70,00,32,00,2e,00,65,00,78,00,65,00,\
+  2c,00,2d,00,39,00,39,00,39,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.WVX\shell\play\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,28,00,78,00,38,00,36,00,29,00,25,00,5c,00,57,00,69,00,6e,00,\
+  64,00,6f,00,77,00,73,00,20,00,4d,00,65,00,64,00,69,00,61,00,20,00,50,00,6c,\
+  00,61,00,79,00,65,00,72,00,5c,00,77,00,6d,00,70,00,6c,00,61,00,79,00,65,00,\
+  72,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,50,00,6c,00,61,00,79,00,20,\
+  00,22,00,25,00,4c,00,22,00,00,00
+"DelegateExecute"="{ed1d0fdf-4414-470a-a56d-cfb68623fc58}"
+
+[HKEY_CLASSES_ROOT\WSFFile\Shell\Open2]
+@=hex(2):4f,00,70,00,65,00,6e,00,20,00,26,00,77,00,69,00,74,00,68,00,20,00,43,\
+  00,6f,00,6d,00,6d,00,61,00,6e,00,64,00,20,00,50,00,72,00,6f,00,6d,00,70,00,\
+  74,00,00,00
+"MUIVerb"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,77,00,73,00,68,00,65,00,78,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,\
+  34,00,35,00,31,00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\WSFFile\Shell\Open2\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,43,00,\
+  53,00,63,00,72,00,69,00,70,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,\
+  00,25,00,31,00,22,00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\WSFFile\Shell\Print\Command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,\
+  6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,\
+  00,70,00,20,00,25,00,31,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"multipleinvokepromptminimum"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"nodrivesinsendtomenu"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{09A47860-11B0-4DA5-AFA5-26D86198A780}"=-
+"{596AB062-B4D2-4215-9F74-E9109B0A8153}"=-
+"{7AD84985-87B4-4a16-BE58-8B72A5B390F7}"=-
+"{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}"=-
+"{f81e9010-6ea4-11ce-a7ff-00aa003ca9f6}"=-

@@ -1,0 +1,1 @@
+%homedrive%\regjump.vbs %1

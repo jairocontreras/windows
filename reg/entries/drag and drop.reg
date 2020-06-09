@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; default action: move
+; e.g. removable drives
+[HKEY_CLASSES_ROOT\AllFilesystemObjects]
+"defaultdropeffect"=dword:00000002

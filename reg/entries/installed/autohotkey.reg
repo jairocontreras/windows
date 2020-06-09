@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\.ahk\ShellNew]
+
+[HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Compile]
+@=-
+
+[HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Edit]
+@=-
+
+[HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Edit\Command]
+@="notepad++ %1"
+
+[HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Open]
+@=-

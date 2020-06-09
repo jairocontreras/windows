@@ -1,0 +1,16 @@
+HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display
+HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize
+HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell
+HKEY_CLASSES_ROOT\Directory\shell\Powershell
+HKEY_CLASSES_ROOT\Drive\shell\Powershell
+HKEY_CLASSES_ROOT\WMP11.AssocFile.AIFF\shell\play
+HKEY_CLASSES_ROOT\WMP11.AssocFile.ASF\shell\play
+HKEY_CLASSES_ROOT\WMP11.AssocFile.ASX\shell\play
+HKEY_CLASSES_ROOT\WMP11.AssocFile.AU\shell\play
+HKEY_CLASSES_ROOT\WMP11.AssocFile.CDA\shell
+HKEY_CLASSES_ROOT\WMP11.AssocFile.MIDI\shell\play
+HKEY_CLASSES_ROOT\WMP11.AssocFile.MP3\shell\play
+HKEY_CLASSES_ROOT\WMP11.AssocFile.MPEG\shell\play
+HKEY_CLASSES_ROOT\WMP11.AssocFile.WAX\shell\play
+HKEY_CLASSES_ROOT\WMP11.AssocFile.WVX\shell\play
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{52205fd8-5dfb-447d-801a-d0b52f2e83e1}\shell\OpenNewWindow

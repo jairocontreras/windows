@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\Python.File\Shell\edit]
+
+[HKEY_CLASSES_ROOT\Python.File\Shell\editwithidle]
+"MUIVerb"="&Edit with IDLE"
+"Subcommands"=""
+
+[HKEY_CLASSES_ROOT\Python.File\Shell\editwithidle\shell]
+
+[HKEY_CLASSES_ROOT\Python.File\Shell\editwithidle\shell\edit37-32]
+"MUIVerb"="Edit with IDLE 3.7 (32-bit)"
+
+[HKEY_CLASSES_ROOT\Python.File\Shell\editwithidle\shell\edit37-32\command]
+@="\"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python37-32\\pythonw.exe\" -m idlelib \"%L\" %*"

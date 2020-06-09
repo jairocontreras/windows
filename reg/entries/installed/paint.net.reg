@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; dds,pdn,tga
+[-HKEY_CLASSES_ROOT\paint.net.1\shell\edit]
+[-HKEY_CLASSES_ROOT\paint.net.1\shell\print]
+
+; dds
+[HKEY_CLASSES_ROOT\.dds]
+@=-

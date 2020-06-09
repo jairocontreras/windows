@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\Open\Command]
+@="powershell \"-command\" \"if((get-executionpolicy ) -ne 'allsigned') { set-executionpolicy -scope process bypass }; & '%1'\""

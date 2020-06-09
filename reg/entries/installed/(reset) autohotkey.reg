@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.ahk\ShellNew]
+"FileName"="Template.ahk"
+
+[HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Compile]
+@="Compile Script"
+
+[HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Edit]
+@="Edit Script"
+
+[HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Edit\Command]
+@="notepad.exe %1"
+
+[HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Open]
+@="Run Script"

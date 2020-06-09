@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\shortcut]
+@="Shortcut"
+"extended"=""
+"multiselectmodel"="single"
+"position"="bottom"
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\shortcut\command]
+@="wscript C:\\shortcut.vbs \"%1\""

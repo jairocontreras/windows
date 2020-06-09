@@ -1,0 +1,4 @@
+Bluetooth device.lnk
+Documents.mydocs
+Fax Recipient.lnk
+Mail Recipient.MAPIMail

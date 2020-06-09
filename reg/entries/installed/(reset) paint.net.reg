@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.dds]
+@="ddsfile"
+
+[HKEY_CLASSES_ROOT\paint.net.1\shell\edit\command]
+@="\"C:\\Program Files\\paint.net\\PaintDotNet.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\paint.net.1\shell\print\command]
+@="\"C:\\Program Files\\paint.net\\PaintDotNet.exe\" \"print:%1\""

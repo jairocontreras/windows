@@ -1,0 +1,67 @@
+Windows Registry Editor Version 5.00
+
+; default: asm,asmx,aspx,c,cdxml,cpp,css,csv,cxx,def,diz,h,hpp,hxx,inc,ini,java,nvr,php3,pl,plg,ps1xml,pssc,sed,shtml,sql,text,tsv,txt,x
+; added: asp,compositefont,inf,js,log,psd1,psm1,scp,sct,shtm,wsc,wtx
+; created: json,php,srt
+[HKEY_CLASSES_ROOT\SystemFileAssociations\text\shell\open\command]
+@="notepad++ \"%1\""
+
+; bat
+[HKEY_CLASSES_ROOT\batfile\shell\edit\command]
+@="notepad++ %1"
+
+; cmd
+[HKEY_CLASSES_ROOT\cmdfile\shell\edit\command]
+@="notepad++ %1"
+
+; hta
+[HKEY_CLASSES_ROOT\htafile\shell\edit\command]
+@="notepad++ %1"
+
+; htm
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.htm\shell\edit\command]
+@="notepad++ %1"
+
+; html
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.html\shell\edit\command]
+@="notepad++ %1"
+
+; jse
+[HKEY_CLASSES_ROOT\JSEFile\Shell\Edit\Command]
+@="notepad++ %1"
+
+; ps1
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\Edit\Command]
+@="notepad++ %1"
+
+; reg
+[HKEY_CLASSES_ROOT\regfile\shell\edit\command]
+@="notepad++ %1"
+
+; vbe
+[HKEY_CLASSES_ROOT\VBEFile\Shell\Edit\Command]
+@="notepad++ %1"
+
+; vbs
+[HKEY_CLASSES_ROOT\VBSFile\Shell\Edit\Command]
+@="notepad++ %1"
+
+; xaml
+[HKEY_CLASSES_ROOT\Windows.XamlDocument\shell\edit\command]
+@="notepad++ %1"
+
+; xbap
+[HKEY_CLASSES_ROOT\Windows.Xbap\shell\edit\command]
+@="notepad++ %1"
+
+; wsf
+[HKEY_CLASSES_ROOT\WSFFile\Shell\Edit\Command]
+@="notepad++ %1"
+
+; xml
+[HKEY_CLASSES_ROOT\xmlfile\shell\edit\command]
+@="notepad++ %1"
+
+; xsl
+[HKEY_CLASSES_ROOT\xslfile\shell\edit\command]
+@="notepad++ %1"

@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\7-Zip]
+@="{23170F69-40C1-278A-1000-000100020000}"
+
+[-HKEY_CLASSES_ROOT\.7z]
+[-HKEY_CLASSES_ROOT\compressed]
+[-HKEY_CLASSES_ROOT\CompressedFolder\ShellEx\ContextMenuHandlers\7-zip]
+
+[HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\7-Zip]
+@="{23170F69-40C1-278A-1000-000100020000}"
+
+[HKEY_CLASSES_ROOT\Directory\shellex\DragDropHandlers\7-Zip]
+@="{23170F69-40C1-278A-1000-000100020000}"
+
+[HKEY_CLASSES_ROOT\Drive\shellex\DragDropHandlers\7-Zip]
+@="{23170F69-40C1-278A-1000-000100020000}"
+
+[HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\7-Zip]
+@="{23170F69-40C1-278A-1000-000100020000}"

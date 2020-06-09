@@ -1,0 +1,97 @@
+Windows Registry Editor Version 5.00
+
+; *restart explorer*
+
+; CONTROL PANEL
+
+; system and security > power options > choose what the power buttons do > hibernate
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings]
+"ShowHibernateOption"=dword:00000001
+
+; LOCAL GROUP POLICY EDITOR
+
+; computer configuration > administrative templates
+
+; > control panel > personalization > do not display the lock screen
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
+"NoLockScreen"=dword:00000001
+
+; > start menu and taskbar > remove "recently added" list from start menu
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"HideRecentlyAddedApps"=dword:00000001
+
+; > system
+
+; > internet communication management > internet communication settings
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"NoUseStoreOpenWith"=dword:00000001
+
+; > logon > show clear logon background
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"DisableAcrylicBackgroundOnLogon"=dword:00000001
+
+; > windows components > file explorer > do not show the 'new application installed' notification
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"NoNewAppAlert"=dword:00000001
+
+; user configuration > administrative templates > windows components > attachment manager > do not preserve zone information in file attachments
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Attachments]
+"SaveZoneInformation"=dword:00000001
+
+; SETTINGS
+
+; personalization
+
+; > lock screen > show lock screen background picture on the sign-in screen: off
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"disablelogonbackgroundimage"=dword:00000001
+
+; > themes > desktop icon settings > recycle bin: off
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{645FF040-5081-101B-9F08-00AA002F954E}"=dword:00000001
+
+; > start > show suggestions occasionally in start: off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SubscribedContent-338388Enabled"=dword:00000000
+
+; > taskbar > select which icons appear on the taskbar > always show all icons in the notification area
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"EnableAutoTray"=dword:00000000
+
+; ease of access > display
+
+; show transparency in windows: off
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"EnableTransparency"=dword:00000000
+
+; > automatically hide scroll bars in windows: off
+[HKEY_CURRENT_USER\Control Panel\Accessibility]
+"DynamicScrollbars"=dword:00000000
+
+; WINDOWS EXPLORER
+
+; file explorer
+
+; view > options > general >
+
+; open file explorer to: this pc
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"LaunchTo"=dword:00000001
+
+; show frequently used folders in quick access: off
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"ShowFrequent"=dword:00000000
+
+; taskbar
+
+; search > hidden
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+"SearchboxTaskbarMode"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+; show cortana button: off
+"ShowCortanaButton"=dword:00000000
+; show task view button: off
+"ShowTaskViewButton"=dword:00000000
+; peek at desktop
+"DisablePreviewDesktop"=dword:00000000
