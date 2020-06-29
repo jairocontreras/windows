@@ -5,6 +5,9 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Compile]
 @=-
 
+[HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Compile\Command]
+@="\"C:\\Program Files\\AutoHotkey\\Compiler\\Ahk2Exe\" /in \"%l\" /icon \"C:\\ahk.ico\""
+
 [HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Edit]
 @=-
 
