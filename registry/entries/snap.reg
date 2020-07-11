@@ -3,8 +3,8 @@ Windows Registry Editor Version 5.00
 ; *sign out*
 
 [HKEY_CURRENT_USER\Control Panel\Desktop]
-; maximize windows when you drag them to the top edge of the screen
-; snap windows when you drag them to the left and right edges of the screen
+; maximize windows when you drag to the top edge of the screen
+; snap windows when you drag to the left or right edge of the screen
 "DockMoving"="0"
-; extend windows vertically when you resize them to the top or bottom edges of the screen
+; extend windows vertically when you resize towards the top or bottom edge of the screen (or taskbar)
 "SnapSizing"="0"
