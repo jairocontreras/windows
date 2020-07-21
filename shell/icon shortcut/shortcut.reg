@@ -1,7 +1,7 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\shortcut]
-@="Shortcut"
+@="Icon Shortcut"
 "extended"=""
 "multiselectmodel"="single"
 "position"="bottom"
