@@ -9,4 +9,4 @@ if not fso.getextensionname(file) = "exe" then
     tr = """" & exe & """ " & tr
   end if
 end if
-createobject("shell.application").shellexecute "powershell", "-executionpolicy bypass -file " & createobject("wscript.shell").expandenvironmentstrings("%homedrive%") & "\startup.ps1 " & tr,, "runas", 0
+createobject("shell.application").shellexecute "powershell", "-executionpolicy bypass -file """ & fso.getparentfoldername(wscript.scriptfullname) & "\startup.ps1"" " & tr,, "runas", 0
