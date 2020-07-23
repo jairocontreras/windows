@@ -1,1 +1,0 @@
-https://github.com/jairocontreras/windows/blob/master/registry/entries/default/powershell.reg
