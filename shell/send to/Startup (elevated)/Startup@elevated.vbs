@@ -4,10 +4,11 @@ set shell = createobject("wscript.shell")
 
 file = wscript.arguments(0)
 extension = fso.getextensionname(file)
-exe = file
 xml.load(fso.getparentfoldername(wscript.scriptfullname) & "\task.xml")
 
-if not extension = "exe" then
+if extension = "exe" then
+  exe = file
+else
   if extension = "lnk" then
     file = shell.createshortcut(file).targetpath
     if fso.getextensionname(file) = "exe" then
