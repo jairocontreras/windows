@@ -1,1 +1,1 @@
-copy regjump.exe to %homedrive%
+regjump.exe
