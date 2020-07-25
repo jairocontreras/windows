@@ -1,0 +1,6 @@
+bat
+cmd
+exe
+ps1
+py
+vbs
