@@ -8,7 +8,7 @@ if extension = "lnk" then
 end if
 taskname = fso.getfilename(file)
 set xml = createobject("microsoft.xmldom")
-path = fso.getparentfoldername(wscript.scriptfullname) & "\"
+path = fso.getparentfoldername(wscript.scriptfullname) & "\resource\"
 xml.load(path & "task.xml")
 set network = createobject("wscript.network")
 set user = getobject("winmgmts:{impersonationlevel=impersonate}!" & "/root/cimv2:win32_useraccount.domain='" & network.userdomain & "'" & ",name='" & network.username & "'")
