@@ -2,10 +2,6 @@ Windows Registry Editor Version 5.00
 
 ; *restart explorer*
 
-; turn off aero shake window minimizing mouse gesture
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
-"nowindowminimizingshortcuts"=dword:00000001
-
 ; CONTROL PANEL
 
 ; system and security > power options > choose what the power buttons do > hibernate
@@ -38,7 +34,13 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
 "NoNewAppAlert"=dword:00000001
 
-; user configuration > administrative templates > windows components > attachment manager > do not preserve zone information in file attachments
+; user configuration > administrative templates
+
+; > desktop > turn off aero shake window minimizing mouse gesture *LOCAL MACHINE*
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"nowindowminimizingshortcuts"=dword:00000001
+
+; > windows components > attachment manager > do not preserve zone information in file attachments
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Attachments]
 "SaveZoneInformation"=dword:00000001
 
