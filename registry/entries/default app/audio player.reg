@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; aif,aifc,aiff,au,mid,midi,mp2,rmi,snd,wax
+[HKEY_CLASSES_ROOT\SystemFileAssociations\audio\shell\open\command]
+@="wmplayer %1"
+
+; cda
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.CDA\shell\open\command]
+@="wmplayer %1"

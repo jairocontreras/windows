@@ -52,6 +52,9 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\.json]
 @="text"
 
+[HKEY_CLASSES_ROOT\.md]
+@="text"
+
 [HKEY_CLASSES_ROOT\.nvr]
 @="text"
 
@@ -99,7 +102,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\text]
 
-; perceived types
+; perceived type
 
 [HKEY_CLASSES_ROOT\.ahk]
 "PerceivedType"="text"
@@ -132,6 +135,9 @@ Windows Registry Editor Version 5.00
 "PerceivedType"="text"
 
 [HKEY_CLASSES_ROOT\.log]
+"PerceivedType"="text"
+
+[HKEY_CLASSES_ROOT\.md]
 "PerceivedType"="text"
 
 [HKEY_CLASSES_ROOT\.php]
