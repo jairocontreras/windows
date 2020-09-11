@@ -13,7 +13,7 @@ xml.load(path & "task.xml")
 set network = createobject("wscript.network")
 set user = getobject("winmgmts:{impersonationlevel=impersonate}!" & "/root/cimv2:win32_useraccount.domain='" & network.userdomain & "'" & ",name='" & network.username & "'")
 xml.documentelement.selectsinglenode("//UserId").text = user.sid
-set f = createobject("scripting.filesystemobject").opentextfile(path & "list.txt")
+set f = createobject("scripting.filesystemobject").opentextfile(path & "programs.txt")
 do until f.atendofstream
   line = f.readline
   if extension = line then
@@ -25,10 +25,15 @@ f.close
 if program then
   program = file
 else
-  program = inputbox("Enter program or script path", "Schedule Task")
-  if isempty(program) then
+  input = inputbox("Enter program or script path | delay in seconds", "Schedule Task")
+  if isempty(input) then
     wscript.quit
   end if
+  arr = split(input, "|")
+  if ubound(arr) = 1 then
+    xml.documentelement.selectsinglenode("//Delay").text = "PT" & arr(1) & "S"
+  end if
+  program = arr(0)
   xml.documentelement.selectsinglenode("//Arguments").text = chr(34) & file & chr(34)
 end if
 xml.documentelement.selectsinglenode("//Command").text = program
