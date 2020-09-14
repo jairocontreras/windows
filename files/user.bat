@@ -1,0 +1,1 @@
+for /f "tokens=*" %%g in (items\user.txt) do rd /s /q "%userprofile%\%%g"
