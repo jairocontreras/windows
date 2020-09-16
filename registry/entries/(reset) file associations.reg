@@ -54,6 +54,8 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\.hxx]
 @=-
 
+[-HKEY_CLASSES_ROOT\.ifo]
+
 [HKEY_CLASSES_ROOT\.inc]
 @=-
 
@@ -139,6 +141,9 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\.vbs]
 "PerceivedType"=-
 
+[HKEY_CLASSES_ROOT\.vob]
+@=-
+
 [HKEY_CLASSES_ROOT\.wsc]
 "PerceivedType"=-
 
@@ -197,6 +202,7 @@ Windows Registry Editor Version 5.00
 @="\"C:\\Windows\\System32\\NOTEPAD.EXE\" \"%1\""
 
 [-HKEY_CLASSES_ROOT\text]
+[-HKEY_CLASSES_ROOT\video]
 
 [HKEY_CLASSES_ROOT\txtfile\shell\open\command]
 @=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
@@ -213,8 +219,26 @@ Windows Registry Editor Version 5.00
   6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,\
   00,25,00,31,00,22,00,00,00
 
+[HKEY_CLASSES_ROOT\WMP.WTVFile\shell]
+@="Play"
+
+[HKEY_CLASSES_ROOT\WMP.WTVFile\shell\open]
+"LegacyDisable"=""
+
 [HKEY_CLASSES_ROOT\WMP11.AssocFile.CDA\shell]
 @="Play"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MK3D\shell]
+@="Play"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MK3D\shell\open]
+"LegacyDisable"=""
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MPEG\shell]
+@="Play"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MPEG\shell\open]
+"LegacyDisable"=""
 
 [HKEY_CLASSES_ROOT\xmlfile\DefaultIcon]
 @=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\

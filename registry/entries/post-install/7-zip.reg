@@ -6,7 +6,9 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\Drive\shellex\DragDropHandlers\7-Zip]
 [-HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\7-Zip]
 
-; supported: 001,arj,bz2,bzip2,(cab),cpio,deb,dmg,fat,gz,gzip,hfs,(iso),lha,lzh,lzma,ntfs,rar,rpm,squashfs,swm,tar,taz,tbz,tbz2,tgz,tpz,txz,vhd,wim,xar,xz,z,(zip)
+; supported (unused): 001,arj,bz2,bzip2,cpio,deb,dmg,fat,gz,gzip,hfs,lha,lzh,lzma,ntfs,rar,rpm,squashfs,swm,tar,taz,tbz,tbz2,tgz,tpz,txz,vhd,wim,xar,xz,z
+; supported: cab,iso
+; context menu: zip
 
 [HKEY_CLASSES_ROOT\.7z]
 @="compressed"

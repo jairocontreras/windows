@@ -1,7 +1,7 @@
 Windows Registry Editor Version 5.00
 
-; default: bmp,dib,gif,jfif,jpe,jpeg,jpg,png,tif,tiff
-; supported: exif,wmp
+; supported (unused): exif,wmp
+; bmp,dib,gif,jfif,jpe,jpeg,jpg,png,tif,tiff
 
 [HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\edit]
 "appliesto"="NOT system.fileextension:=.emf AND NOT system.fileextension:=.ico AND NOT system.fileextension:=.rle AND NOT system.fileextension:=.wmf"
