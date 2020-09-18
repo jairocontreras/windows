@@ -1,8 +1,6 @@
 Windows Registry Editor Version 5.00
 
-; default: asm,asmx,aspx,c,cdxml,cpp,css,csv,cxx,def,diz,h,hpp,hxx,inc,ini,java,nvr,php3,pl,plg,ps1xml,pssc,sed,shtml,sql,text,tsv,txt,x
-; modified: asp,compositefont,inf,js,log,psd1,psm1,scp,sct,shtm,wsc,wtx
-; added: json,md,php,srt
+; asm,asmx,asp,aspx,c,cdxml,compositefont,cpp,css,csv,cxx,def,diz,h,hpp,hxx,inc,inf,ini,java,js,json,log,md,nvr,php,php3,pl,plg,ps1xml,psd1,psm1,pssc,scp,sct,sed,shtm,shtml,sql,srt,text,tsv,txt,wsc,wtx,x
 [HKEY_CLASSES_ROOT\SystemFileAssociations\text\shell\open\command]
 @="notepad++ \"%1\""
 

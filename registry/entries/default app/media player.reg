@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+; audio
+
+; aif,aifc,aiff,au,mid,midi,mp2,rmi,snd,wax
+[HKEY_CLASSES_ROOT\SystemFileAssociations\audio\shell\open\command]
+@="wmplayer %1"
+
+; cda
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.CDA\shell\open\command]
+@="wmplayer %1"
+
+; video
+
+; 3g2,3gp,3gp2,3gpp,ifo,m2t,m2ts,m4v,mkv,mod,mov,mp4,mp4v,mts,ogm,ogv,ogx,tod,ts,tts,vob,webm
+; systemfileassociations: asf,avi,m1v,mp2v,mpe,mpeg,mpg,mpv2,wm,wmv,wvx
+[HKEY_CLASSES_ROOT\video\shell\open\command]
+@="vlc %1"
+
+; asx,dvr-ms
+[HKEY_CLASSES_ROOT\SystemFileAssociations\video\shell\open\command]
+@="vlc %1"
+
+; m2v,mpa
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MPEG\shell\open\command]
+@="vlc %1"
+
+; wtv
+[HKEY_CLASSES_ROOT\WMP.WTVFile\shell\open\command]
+@="vlc %1"

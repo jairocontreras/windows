@@ -115,91 +115,97 @@ Windows Registry Editor Version 5.00
 "perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.asp]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.bat]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.cda]
-"PerceivedType"="audio"
+"perceivedtype"="audio"
 
 [HKEY_CLASSES_ROOT\.cmd]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.compositefont]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.ifo]
 "perceivedtype"="video"
 
 [HKEY_CLASSES_ROOT\.inf]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.js]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.JSE]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.json]
 "perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.log]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.md]
 "perceivedtype"="text"
+
+[HKEY_CLASSES_ROOT\.mk3d]
+"perceivedtype"="video"
 
 [HKEY_CLASSES_ROOT\.php]
 "perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.ps1]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.psd1]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.psm1]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.py]
 "perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.reg]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.scp]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.sct]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.shtm]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.srt]
 "perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.VBE]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.vbs]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.wsc]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.WSF]
-"PerceivedType"="text"
+"perceivedtype"="text"
+
+[HKEY_CLASSES_ROOT\.WTV]
+"perceivedtype"="video"
 
 [HKEY_CLASSES_ROOT\.wtx]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.xaml]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.xbap]
-"PerceivedType"="text"
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\inffile\shell]
 @="open"

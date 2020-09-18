@@ -9,26 +9,26 @@ Windows Registry Editor Version 5.00
 @=-
 
 [HKEY_CLASSES_ROOT\.asp]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.aspx]
 @=-
 
 [HKEY_CLASSES_ROOT\.bat]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.c]
 @=-
 
 [HKEY_CLASSES_ROOT\.cda]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.cmd]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.compositefont]
 @="Windows.CompositeFont"
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.cpp]
 @=-
@@ -60,23 +60,26 @@ Windows Registry Editor Version 5.00
 @=-
 
 [HKEY_CLASSES_ROOT\.inf]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.java]
 @=-
 
 [HKEY_CLASSES_ROOT\.js]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.JSE]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [-HKEY_CLASSES_ROOT\.json]
 
 [HKEY_CLASSES_ROOT\.log]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [-HKEY_CLASSES_ROOT\.md]
+
+[HKEY_CLASSES_ROOT\.mk3d]
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.nvr]
 @=-
@@ -93,33 +96,33 @@ Windows Registry Editor Version 5.00
 @=-
 
 [HKEY_CLASSES_ROOT\.ps1]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.psd1]
 @="Microsoft.PowerShellData.1"
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.psm1]
 @="Microsoft.PowerShellModule.1"
-"PerceivedType"=-
+"perceivedtype"=-
 
 ;[-HKEY_CLASSES_ROOT\.py]
 
 [HKEY_CLASSES_ROOT\.reg]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.scp]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.sct]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.sed]
 @=-
 
 [HKEY_CLASSES_ROOT\.shtm]
 @=-
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.shtml]
 @=-
@@ -136,31 +139,34 @@ Windows Registry Editor Version 5.00
 @=-
 
 [HKEY_CLASSES_ROOT\.VBE]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.vbs]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.vob]
 @=-
 
 [HKEY_CLASSES_ROOT\.wsc]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.WSF]
-"PerceivedType"=-
+"perceivedtype"=-
+
+[HKEY_CLASSES_ROOT\.WTV]
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.wtx]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.x]
 @=-
 
 [HKEY_CLASSES_ROOT\.xaml]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\.xbap]
-"PerceivedType"=-
+"perceivedtype"=-
 
 [HKEY_CLASSES_ROOT\AppXcdh38jxzbcberv50vxg2tg4k84kfnewn\DefaultIcon]
 @="@{Microsoft.MSPaint_6.1907.18017.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.MSPaint/Files/Assets/Logos/FileAssociation/FileAssociation.png}"
