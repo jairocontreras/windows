@@ -1,0 +1,1 @@
+for /f "tokens=*" %%g in (items\audio.txt) do setuserfta .%%g audio

@@ -55,6 +55,9 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\.json]
 @="text"
 
+[HKEY_CLASSES_ROOT\.m4b]
+@="audio"
+
 [HKEY_CLASSES_ROOT\.md]
 @="text"
 
@@ -107,12 +110,14 @@ Windows Registry Editor Version 5.00
 @="text"
 
 [HKEY_CLASSES_ROOT\text]
-[HKEY_CLASSES_ROOT\video]
 
 ; perceived type
 
 [HKEY_CLASSES_ROOT\.ahk]
 "perceivedtype"="text"
+
+[HKEY_CLASSES_ROOT\.amr]
+"perceivedtype"="audio"
 
 [HKEY_CLASSES_ROOT\.asp]
 "perceivedtype"="text"
@@ -146,6 +151,9 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\.log]
 "perceivedtype"="text"
+
+[HKEY_CLASSES_ROOT\.m4r]
+"perceivedtype"="audio"
 
 [HKEY_CLASSES_ROOT\.md]
 "perceivedtype"="text"
@@ -207,13 +215,25 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\.xbap]
 "perceivedtype"="text"
 
+[HKEY_CLASSES_ROOT\.xvid]
+"perceivedtype"="video"
+
+[HKEY_CLASSES_ROOT\.zpl]
+"perceivedtype"="audio"
+
 [HKEY_CLASSES_ROOT\inffile\shell]
 @="open"
 
 [HKEY_CLASSES_ROOT\scriptletfile\Shell]
 @="open"
 
+[HKEY_CLASSES_ROOT\Applications\wmplayer.exe\shell]
+@=-
+
 [HKEY_CLASSES_ROOT\WMP.WTVFile\shell]
+@=-
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.ADTS\shell]
 @=-
 
 [HKEY_CLASSES_ROOT\WMP11.AssocFile.CDA\shell]
@@ -243,7 +263,7 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\txtfile\shell\open]
 [-HKEY_CLASSES_ROOT\Windows.CompositeFont\shell\open]
 
-; icon
+; icons
 
 [-HKEY_CLASSES_ROOT\AppXcdh38jxzbcberv50vxg2tg4k84kfnewn\DefaultIcon] ; ico
 [-HKEY_CLASSES_ROOT\JSFile\DefaultIcon]
@@ -251,5 +271,17 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\Windows.CompositeFont\DefaultIcon]
 [-HKEY_CLASSES_ROOT\xmlfile\DefaultIcon]
 
+[HKEY_CLASSES_ROOT\audio\defaulticon]
+@="shell32.dll,-16824"
+
 [HKEY_CLASSES_ROOT\video\defaulticon]
+@="shell32.dll,-16825"
+
+[HKEY_CLASSES_ROOT\WMP.DVR-MSFile\DefaultIcon]
+@="shell32.dll,-16825"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.ASX\DefaultIcon]
+@="shell32.dll,-16825"
+
+[HKEY_CLASSES_ROOT\WMP11.AssocFile.MPEG\DefaultIcon]
 @="shell32.dll,-16825"

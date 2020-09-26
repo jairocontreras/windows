@@ -10,6 +10,7 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\SystemFileAssociations\Directory.Image\shell\Enqueue]
 [-HKEY_CLASSES_ROOT\WMP.DVR-MSFile\shell\Enqueue]
 [-HKEY_CLASSES_ROOT\WMP.WTVFile\shell\Enqueue]
+[-HKEY_CLASSES_ROOT\WMP11.AssocFile.ADTS\shell\Enqueue]
 [-HKEY_CLASSES_ROOT\WMP11.AssocFile.AIFF\shell\Enqueue]
 [-HKEY_CLASSES_ROOT\WMP11.AssocFile.ASF\shell\Enqueue]
 [-HKEY_CLASSES_ROOT\WMP11.AssocFile.ASX\shell\Enqueue]
@@ -96,8 +97,10 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\{90AA3A4E-1CBA-4233-B8BB-535773D48449}]
 
 ; play
+[-HKEY_CLASSES_ROOT\Applications\wmplayer.exe\shell\play] ; wmx
 [-HKEY_CLASSES_ROOT\WMP.DVR-MSFile\shell\play]
 [-HKEY_CLASSES_ROOT\WMP.WTVFile\shell\play]
+[-HKEY_CLASSES_ROOT\WMP11.AssocFile.ADTS\shell\play]
 [-HKEY_CLASSES_ROOT\WMP11.AssocFile.AIFF\shell\play]
 [-HKEY_CLASSES_ROOT\WMP11.AssocFile.ASF\shell\play]
 [-HKEY_CLASSES_ROOT\WMP11.AssocFile.ASX\shell\play]

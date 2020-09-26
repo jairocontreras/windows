@@ -3,6 +3,7 @@ HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize
 HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell
 HKEY_CLASSES_ROOT\Directory\shell\Powershell
 HKEY_CLASSES_ROOT\Drive\shell\Powershell
+HKEY_CLASSES_ROOT\WMP11.AssocFile.ADTS\shell\play
 HKEY_CLASSES_ROOT\WMP11.AssocFile.AIFF\shell\play
 HKEY_CLASSES_ROOT\WMP11.AssocFile.ASF\shell\play
 HKEY_CLASSES_ROOT\WMP11.AssocFile.ASX\shell\play
