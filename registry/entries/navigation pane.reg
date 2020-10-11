@@ -1,35 +1,39 @@
 Windows Registry Editor Version 5.00
 
-; network
+; NETWORK
 
 [HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}]
 "system.ispinnedtonamespacetree"=dword:00000000
 
-; (open, save as)
+; open, save as
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Classes\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}]
 "system.ispinnedtonamespacetree"=dword:00000000
 
-; onedrive
+; ONEDRIVE
 
 [HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}]
 "System.IsPinnedToNameSpaceTree"=dword:00000000
 
-; (open, save as)
+; open, save as
 [HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}]
 "System.IsPinnedToNameSpaceTree"=dword:00000000
 
-; removable drives
+; REMOVABLE DRIVES
 
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}]
 
-; (open, save as)
+; open, save as
 [-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}]
 
-; this pc
+; THIS PC
 
 [HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}]
 "system.ispinnedtonamespacetree"=dword:00000000
 
-; (open, save as)
+; open, save as
 [HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}]
 "system.ispinnedtonamespacetree"=dword:00000000
+
+; *restart explorer* open new window or run e.g. d:\
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\ShellFolder]
+"attributes"=dword:b094010c

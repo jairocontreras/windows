@@ -185,6 +185,54 @@ Windows Registry Editor Version 5.00
 
 ; ADD
 
+; open cmd here
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\cmd]
+@="Open cmd here"
+"icon"="imageres.dll,262"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\cmd\command]
+@="cmd /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmd]
+@="Open cmd here"
+"Extended"=-
+"HideBasedOnVelocityId"=-
+"icon"="imageres.dll,262"
+
+[HKEY_CLASSES_ROOT\Folder\shell\cmd] ; no separator (compare to Directory)
+@="Open cmd here"
+"icon"="imageres.dll,262"
+
+[HKEY_CLASSES_ROOT\Folder\shell\cmd\command]
+@="cmd /s /k pushd \"%V\""
+
+; open cmd here (as administrator)
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\runas]
+@="Open cmd here"
+"extended"=""
+"hasluashield"=""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\runas\command]
+@="cmd /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
+@="Open cmd here"
+"extended"=""
+"hasluashield"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\runas\command]
+@="cmd /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Folder\shell\runas]
+@="Open cmd here"
+"extended"=""
+"hasluashield"=""
+
+[HKEY_CLASSES_ROOT\Folder\shell\runas\command]
+@="cmd /s /k pushd \"%V\""
+
 ; run as administrator
 
 [HKEY_CLASSES_ROOT\VBSFile\Shell\runas]

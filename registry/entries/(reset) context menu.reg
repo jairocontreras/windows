@@ -78,6 +78,8 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\CompressedFolder\ShellEx\ContextMenuHandlers\{b8cdcb65-b1bf-4b42-9428-1dfdb7ee92af}]
 @="Compressed (zipped) Folder Menu"
 
+[-HKEY_CLASSES_ROOT\DesktopBackground\Shell\cmd]
+
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display]
 @=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,\
   00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,64,00,\
@@ -109,6 +111,14 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command]
 "DelegateExecute"="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"
 
+[-HKEY_CLASSES_ROOT\DesktopBackground\Shell\runas]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmd]
+@="@shell32.dll,-8506"
+"Extended"=""
+"HideBasedOnVelocityId"=dword:00639bc8
+"icon"=-
+
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell]
 @="@shell32.dll,-8508"
 "Extended"=""
@@ -117,6 +127,8 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell\command]
 @="powershell.exe -noexit -command Set-Location -literalPath '%V'"
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
 
 [HKEY_CLASSES_ROOT\Directory\shell\Powershell]
 @="@shell32.dll,-8508"
@@ -193,6 +205,8 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\exefile\shellex\ContextMenuHandlers\PintoStartScreen]
 @="{470C0EBD-5D73-4d58-9CED-E91E22E23282}"
 
+[-HKEY_CLASSES_ROOT\Folder\shell\cmd]
+
 [HKEY_CLASSES_ROOT\Folder\shell\opennewprocess]
 "ExplorerHost"="{ceff45ee-c862-41de-aee2-a022c81eda92}"
 "Extended"=""
@@ -209,6 +223,8 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Folder\shell\pintohome\command]
 "DelegateExecute"="{b455f46e-e4af-4035-b0a4-cf18d2f6f28e}"
+
+[-HKEY_CLASSES_ROOT\Folder\shell\runas]
 
 [HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Library Location]
 @="{3dad6c5d-2167-4cae-9914-f99e41c12cfa}"
