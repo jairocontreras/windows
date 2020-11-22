@@ -25,7 +25,7 @@ f.close
 if program then
   program = file
 else
-  input = inputbox("Enter program or script path | delay in seconds", "Schedule Task")
+  input = inputbox("Enter program or script path | delay in seconds" & vbcrlf & "C:\example.exe|1", "Schedule Task")
   if isempty(input) then
     wscript.quit
   end if
