@@ -26,6 +26,8 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\.cda]
 "perceivedtype"=-
 
+[-HKEY_CLASSES_ROOT\.cfg]
+
 [HKEY_CLASSES_ROOT\.cmd]
 "perceivedtype"=-
 

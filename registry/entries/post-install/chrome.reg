@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; open downloaded files
+
+; log,scp,txt,wtx
+[HKEY_CLASSES_ROOT\txtfile\shell\printto]
+"neverdefault"=""
+
+; zip
+[HKEY_CLASSES_ROOT\CompressedFolder\Shell\find]
+"neverdefault"=""

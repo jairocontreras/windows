@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CompressedFolder\Shell\find]
+"neverdefault"=-
+
+[HKEY_CLASSES_ROOT\txtfile\shell\printto]
+"neverdefault"=-

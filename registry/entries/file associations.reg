@@ -16,6 +16,9 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\.c]
 @="text"
 
+[HKEY_CLASSES_ROOT\.cfg]
+@="text"
+
 [HKEY_CLASSES_ROOT\.compositefont]
 @="text"
 
@@ -127,6 +130,9 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\.cda]
 "perceivedtype"="audio"
+
+[HKEY_CLASSES_ROOT\.cfg]
+"perceivedtype"="text"
 
 [HKEY_CLASSES_ROOT\.cmd]
 "perceivedtype"="text"

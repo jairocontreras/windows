@@ -111,11 +111,8 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command]
 "DelegateExecute"="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"
 
-[-HKEY_CLASSES_ROOT\DesktopBackground\Shell\runas]
-
 [HKEY_CLASSES_ROOT\Directory\Background\shell\cmd]
 @="@shell32.dll,-8506"
-"Extended"=""
 "HideBasedOnVelocityId"=dword:00639bc8
 "icon"=-
 
@@ -127,8 +124,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell\command]
 @="powershell.exe -noexit -command Set-Location -literalPath '%V'"
-
-[-HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
 
 [HKEY_CLASSES_ROOT\Directory\shell\Powershell]
 @="@shell32.dll,-8508"
@@ -223,8 +218,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Folder\shell\pintohome\command]
 "DelegateExecute"="{b455f46e-e4af-4035-b0a4-cf18d2f6f28e}"
-
-[-HKEY_CLASSES_ROOT\Folder\shell\runas]
 
 [HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Library Location]
 @="{3dad6c5d-2167-4cae-9914-f99e41c12cfa}"
