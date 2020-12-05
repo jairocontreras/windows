@@ -219,4 +219,4 @@ Windows Registry Editor Version 5.00
 ; MULTIPLE FILE SELECTION LIMIT
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
-"multipleinvokepromptminimum"=dword:00000032 ; 50
+"multipleinvokepromptminimum"=dword:00000064 ; 100
