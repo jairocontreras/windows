@@ -1,6 +1,5 @@
 Windows Registry Editor Version 5.00
 
-; *sign out* (1)
 ; *restart explorer*
 
 ; CONTROL PANEL
@@ -47,13 +46,7 @@ Windows Registry Editor Version 5.00
 
 ; SETTINGS
 
-; system > notifications & actions
-
-; (1) > get notifications from apps and other senders: off
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\PushNotifications]
-"ToastEnabled"=dword:00000000
-
-; > show me the windows welcome experience after updates and occasionally when i sign in to highlight what's new and sugggested: off
+; system > notifications & actions > show me the windows welcome experience after updates and occasionally when i sign in to highlight what's new and sugggested: off
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
 "subscribedcontent-310093enabled"=dword:00000000
 

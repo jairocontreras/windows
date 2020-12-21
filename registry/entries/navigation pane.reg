@@ -33,7 +33,3 @@ Windows Registry Editor Version 5.00
 ; open, save as
 [HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}]
 "system.ispinnedtonamespacetree"=dword:00000000
-
-; *restart explorer* open new window or run e.g. d:\
-[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\ShellFolder]
-"attributes"=dword:b094010c
