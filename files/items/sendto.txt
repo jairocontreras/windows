@@ -1,4 +1,0 @@
-bluetooth file transfer.lnk
-documents.mydocs
-fax recipient.lnk
-mail recipient.mapimail

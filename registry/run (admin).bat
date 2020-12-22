@@ -1,1 +1,0 @@
-setacl -on "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" -ot reg -actn ace -ace "n:everyone;p:read;m:deny"
