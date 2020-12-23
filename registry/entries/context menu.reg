@@ -33,6 +33,8 @@ Windows Registry Editor Version 5.00
 "{596AB062-B4D2-4215-9F74-E9109B0A8153}"=""
 ; scan with windows defender
 "{09A47860-11B0-4DA5-AFA5-26D86198A780}"=""
+; share with skype
+"{776DBC8D-7347-478C-8D71-791E12EF49D8}"=""
 
 ; copy as path
 [-HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\CopyAsPathMenu]
