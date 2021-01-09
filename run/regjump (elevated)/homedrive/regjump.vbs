@@ -1,1 +1,0 @@
-createobject("shell.application").shellexecute createobject("wscript.shell").expandenvironmentstrings("%homedrive%") & "\regjump", wscript.arguments(0),, "runas"
